@@ -1,1 +1,0 @@
-CRC can correct 1-bit error for messages at most 2^(n-1)-1 bits long, for polynomials of 
