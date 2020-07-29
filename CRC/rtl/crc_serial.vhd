@@ -1,3 +1,19 @@
+--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--   ____ ___   __    _               
+--  / __// o |,'_/  .' \              
+-- / _/ / _,'/ /_n / o /   _   __  _    ___  _   _  __
+--/_/  /_/   |__,'/_n_/   / \,' /.' \ ,' _/,' \ / |/ /
+--                       / \,' // o /_\ `./ o // || / 
+--                      /_/ /_//_n_//___,'|_,'/_/|_/ 
+-- 
+--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- Author      : Wesley Taylor-Rendal (WTR)
+-- Syntax      : VHDL-2008
+-- Description : A Cyclic Redundancy Check (CRC) is a check value based on the 
+--             : remainder of a polynomial division.
+--             : Invented by my fellow namesake "Wesley" Peterson.
+--             : CRC is a version of a LFSR, where data is xor'd with the fb.
+--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     --Find remainder of Data/polynomial
 library ieee;
 use ieee.std_logic_1164.all;
